@@ -702,6 +702,53 @@
       .hero { padding: 40px 20px 36px; }
       .section-header h2 { font-size: 18px; }
     }
+
+    /* ── APR–MAY 2026 PLAN ── */
+    .week-plan-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+    .week-plan-head {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--rose);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--sand);
+    }
+    .day-plan {
+      display: grid;
+      grid-template-columns: 88px 72px 1fr;
+      gap: 8px 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--sand);
+      font-size: 13px;
+      align-items: start;
+    }
+    .day-plan:last-child { border-bottom: none; padding-bottom: 0; }
+    .day-plan .d-date { font-weight: 700; color: var(--ink); font-size: 12px; }
+    .day-plan .d-fmt {
+      font-size: 10px;
+      font-weight: 700;
+      background: var(--rose-lt);
+      color: var(--rose);
+      padding: 3px 8px;
+      border-radius: 20px;
+      text-align: center;
+      line-height: 1.3;
+    }
+    .day-plan .d-body { color: var(--ink-mid); line-height: 1.55; }
+    .day-plan .d-body strong { color: var(--ink); }
+    .day-plan .d-cta { font-size: 11px; color: var(--ink-lt); margin-top: 4px; }
+    @media (max-width: 560px) {
+      .day-plan { grid-template-columns: 1fr; gap: 4px; }
+      .day-plan .d-fmt { justify-self: start; }
+    }
   </style>
 </head>
 <body>
@@ -718,6 +765,7 @@
     <a href="#leadmagnet">Лид-магнит</a>
     <a href="#analytics">Аналитика</a>
     <a href="#sprint">Спринт</a>
+    <a href="#plan-apr-may-2026">18.04–18.05</a>
   </div>
 </nav>
 
@@ -1332,6 +1380,111 @@
         <li><strong>60–90 минут в день</strong> — Stories, ответы в Директ, комментарии, аналитика</li>
         <li><strong>Комментарий-воронка</strong> — 20–30 осмысленных комментариев в релевантных аккаунтах</li>
       </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ── АНАЛИЗ @dr.ladutko_v + ПЛАН 18.04–18.05.2026 ── -->
+  <section id="plan-apr-may-2026">
+    <div class="section-header">
+      <div class="section-icon">📌</div>
+      <h2>Анализ @dr.ladutko_v и план 18.04–18.05.2026</h2>
+      <span class="badge">31 день</span>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Как собирали данные</div>
+      <p style="font-size:13px; color:var(--ink-mid); line-height:1.65">
+        Instagram не отдаёт охваты, сохранения и досмотры без входа в аккаунт. Ниже — разбор по <strong>публично видимым</strong> постам (текст, формат, тема) и слабому прокси вовлечённости (лайки/комментарии на странице поста). После публикации плана сверьте строки с <strong>Insights → контент</strong> и пометьте «залёт» по вашим внутренним порогам (сохранения, репосты, переходы в профиль).
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Подтверждённые посты (проанализированы)</div>
+      <ul class="plain">
+        <li>
+          <strong>Карусель «Я — педиатр, но в первую очередь я — мама»</strong> (6 апреля 2026) — личное + авторитет врача + «чёрный список» из 5 конкретных «нет» (насилие едой, соки до года, «кутать при температуре», маркетинг «детское», перелечивание ОРВИ). Тон: доказательность без запугивания, CTA на подписку и <strong>бесплатный гайд в шапке профиля</strong>.
+          <div class="post-ref"><a href="https://www.instagram.com/p/DW0bZjFjBYg/" target="_blank" rel="noopener">instagram.com/p/DW0bZjFjBYg/</a> · публично ~31 лайк, 4 комментария</div>
+        </li>
+        <li>
+          <strong>Reels с CTA на подписку</strong> — короткий призыв «кормить без лишней тревоги по законам доказательной медицины», хэштеги #гв #советыпедиатра #будумамой.
+          <div class="post-ref"><a href="https://www.instagram.com/reel/DWjExDXtHTa/" target="_blank" rel="noopener">instagram.com/reel/DWjExDXtHTa/</a> · публично ~65 лайков, 6 комментариев</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Выводы для контент-плана</div>
+      <ul class="plain">
+        <li><strong>Усилить серию «педиатр-мама»</strong> — формат «N вещей, которых я не делаю / не верю» даёт ясный хук и сохраняемость; делайте части 2–4 с новыми блоками (сон, прогулки, ЛОР, прикорм).</li>
+        <li><strong>Чередовать эмоцию и алгоритм</strong> — после «душевного» поста выкладывайте Reels с 3 шагами «что сделать сегодня» (прикорм, ГВ, температура).</li>
+        <li><strong>Повторять связку CTA</strong> как в карусели: подписка + <strong>гайд в шапке</strong> + мягко <strong>mommy.by</strong> в конце ленты недели.</li>
+        <li><strong>Короткий «рекламный» Reels</strong> раз в 7–10 дней — напоминание, кто вы и зачем подписаться (как DWjExDXtHTa), с разными углами (прикорм / первые дни / ГВ без стыда).</li>
+        <li><strong>Избегать ухода в «чужие» медицинские ниши</strong> без связи с мамами 0–24 мес. — фокус = ГВ, прикорм, уход, тревога, запись на консультацию.</li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-bottom:18px">
+      <div class="card-title">Ритм на период (поверх календаря)</div>
+      <p style="font-size:13px; color:var(--ink-mid)">
+        <strong>4–5 Reels</strong> в неделю, <strong>2 карусели</strong>, <strong>Stories ежедневно</strong> (5–10 кадров), <strong>1 коллаборация или прямой эфир</strong> в окне 18.04–18.05 (например, с консультантом по сну или психологом — тема «срывы и крик» / «ночные кормления»). Один съёмочный блок в неделю на 5–7 Reels.
+      </p>
+    </div>
+
+    <div class="week-plan-card">
+      <div class="week-plan-head">Неделя 1 · 18.04 (сб) — 24.04 (пт)</div>
+      <div class="day-plan"><span class="d-date">18.04 сб</span><span class="d-fmt">Reels</span><div class="d-body"><strong>Старт серии «педиатр-мама — часть 2»</strong> (тизер к карусели): 3 вещи, которые вы уже делаете правильно — закрепите уверенность.<div class="d-cta">CTA: сохранить · вечером сторис «завтра карусель»</div></div></div>
+      <div class="day-plan"><span class="d-date">19.04 вс</span><span class="d-fmt">Карусель</span><div class="d-body"><strong>«Ещё 5 «нет» в нашем доме»</strong> — сон/экран у еды/«догони рост» смесью без показаний (без осуждения, через норму и границы).<div class="d-cta">CTA: гайд в шапке + «пишите цифру возраста в комментариях»</div></div></div>
+      <div class="day-plan"><span class="d-date">20.04 пн</span><span class="d-fmt">Reels</span><div class="d-body">Ошибка прикорма: <strong>большая порция в первый день</strong> — как ввести без стресса (3 шага).<div class="d-cta">Сохранить · ссылка mommy.by в профиле</div></div></div>
+      <div class="day-plan"><span class="d-date">21.04 вт</span><span class="d-fmt">Карусель</span><div class="d-body">Чек-лист: <strong>готовность к прикорму 5–7 мес.</strong> (признаки + что купить/подготовить).<div class="d-cta">Репост подруге</div></div></div>
+      <div class="day-plan"><span class="d-date">22.04 ср</span><span class="d-fmt">Reels</span><div class="d-body">Миф/факт: <strong>«сок грейпфрута для иммунитета»</strong> и напитки до года (отсылка к тезису из карусели 06.04).<div class="d-cta">Дисклеймер в конце кадра</div></div></div>
+      <div class="day-plan"><span class="d-date">23.04 чт</span><span class="d-fmt">Stories</span><div class="d-body">Q&A: стикер вопроса + опрос «что страшнее — прикорм или ГВ?» + 2 развёрнутых ответа экспертом.<div class="d-cta">Стикер «запись» → mommy.by</div></div></div>
+      <div class="day-plan"><span class="d-date">24.04 пт</span><span class="d-fmt">Reels</span><div class="d-body"><strong>Красные флаги:</strong> когда температура — срочно к врачу, когда можно наблюдать дома.<div class="d-cta">Сохранить в «аптека мозга»</div></div></div>
+    </div>
+
+    <div class="week-plan-card">
+      <div class="week-plan-head">Неделя 2 · 25.04 (сб) — 01.05 (пт)</div>
+      <div class="day-plan"><span class="d-date">25.04 сб</span><span class="d-fmt">Reels</span><div class="d-body"><strong>Мини-CTA-профиль</strong> (формат как DWjExDXtHTa): «Подписывайтесь, если хотите ГВ и прикорм без токсичных советов» — 12–18 сек, новый кадр/одежда, те же хэштеги + #прикорм.<div class="d-cta">Подписка</div></div></div>
+      <div class="day-plan"><span class="d-date">26.04 вс</span><span class="d-fmt">Карусель</span><div class="d-body">Памятка в сохранение: <strong>первые 14 дней прикорма</strong> — схема «1 продукт — 2–3 дня — дневник».<div class="d-cta">Лид: слово ПРИКОРМ в Директ</div></div></div>
+      <div class="day-plan"><span class="d-date">27.04 пн</span><span class="d-fmt">Reels</span><div class="d-body">Личное: <strong>«после роддома я боялась…»</strong> (30 сек) — мост к консультации «первый день дома» на mommy.by.<div class="d-cta">Мягко: «разберём в формате онлайн от 80 BYN»</div></div></div>
+      <div class="day-plan"><span class="d-date">28.04 вт</span><span class="d-fmt">Reels</span><div class="d-body">Боль ГВ: <strong>больно кормить</strong> — 4 причины, с чего начать сегодня (без диагноза в кадре).<div class="d-cta">Запись mommy.by</div></div></div>
+      <div class="day-plan"><span class="d-date">29.04 ср</span><span class="d-fmt">Stories</span><div class="d-body">Закулисье: рабочий день / книга / чек перед консультацией + опрос «нужен эфир про прикорм?»<div class="d-cta">Отметить партнёра-коллабу</div></div></div>
+      <div class="day-plan"><span class="d-date">30.04 чт</span><span class="d-fmt">Карусель</span><div class="d-body"><strong>«Педиатр-мама — часть 3»</strong>: ЛОР/насморк/промывания — что дома ок, когда очно (обобщённо, без назначений).<div class="d-cta">Сохранить</div></div></div>
+      <div class="day-plan"><span class="d-date">01.05 пт</span><span class="d-fmt">Reels</span><div class="d-body">Миф: <strong>«смесь = плохая мама»</strong> — коротко: выбор из ресурса и здоровья (в духе позиции сайта: без стыда).<div class="d-cta">Коммент: одно слово поддержки другим мамам</div></div></div>
+    </div>
+
+    <div class="week-plan-card">
+      <div class="week-plan-head">Неделя 3 · 02.05 (сб) — 08.05 (пт)</div>
+      <div class="day-plan"><span class="d-date">02.05 сб</span><span class="d-fmt">Live / Reels</span><div class="d-body"><strong>Коллаб 45–60 мин</strong> или запасной вариант: Reels-ответы на 3 частых вопроса из Директа за неделю.<div class="d-cta">Анонс за 48 ч в Stories</div></div></div>
+      <div class="day-plan"><span class="d-date">03.05 вс</span><span class="d-fmt">Reels</span><div class="d-body">Пищевой интерес: <strong>выплёвывает / отворачивается</strong> — норма этапа vs когда обсудить с педиатром.<div class="d-cta">Сохранить</div></div></div>
+      <div class="day-plan"><span class="d-date">04.05 пн</span><span class="d-fmt">Карусель</span><div class="d-body">Трекер ввода прикорма <strong>9–12 мес.</strong> (одна таблица на слайдах).<div class="d-cta">Отправить в чат мамам</div></div></div>
+      <div class="day-plan"><span class="d-date">05.05 вт</span><span class="d-fmt">Reels</span><div class="d-body">Ошибка: <strong>кормление с мультиком</strong> — почему мешает и 2 альтернативы.<div class="d-cta">Stories-опрос «кормите с экраном?»</div></div></div>
+      <div class="day-plan"><span class="d-date">06.05 ср</span><span class="d-fmt">Stories</span><div class="d-body">Кейс (анонимно): «после консультации изменилось…» + скрин отзыва + кнопка записи.<div class="d-cta">mommy.by</div></div></div>
+      <div class="day-plan"><span class="d-date">07.05 чт</span><span class="d-fmt">Reels</span><div class="d-body"><strong>«Мало молока»</strong> — как отличить ощущение от данных (без обещаний «поднять лактацию» в одном ролике).<div class="d-cta">Консультация по анкете онлайн</div></div></div>
+      <div class="day-plan"><span class="d-date">08.05 пт</span><span class="d-fmt">Reels</span><div class="d-body">Красные флаги ЖКТ при прикорме (обобщённо, со ссылкой на очный осмотр при тревоге).<div class="d-cta">Сохранить</div></div></div>
+    </div>
+
+    <div class="week-plan-card">
+      <div class="week-plan-head">Неделя 4 · 09.05 (сб) — 15.05 (пт)</div>
+      <div class="day-plan"><span class="d-date">09.05 сб</span><span class="d-fmt">Reels</span><div class="d-body">9 мая / семейный контекст (аккуратно): <strong>спокойствие и рутина</strong> с малышом в выходной — 3 идеи без перегруза.<div class="d-cta">Без политики в комментариях — модерация</div></div></div>
+      <div class="day-plan"><span class="d-date">10.05 вс</span><span class="d-fmt">Карусель</span><div class="d-body"><strong>FAQ консультаций</strong> — как проходит онлайн 60 мин, что взять на очную 90/120 мин, цены 80 / 170 / 230 BYN (как на mommy.by).<div class="d-cta">Продающий, но в вашем тоне «без осуждения»</div></div></div>
+      <div class="day-plan"><span class="d-date">11.05 пн</span><span class="d-fmt">Reels</span><div class="d-body">Разбор мифа: <strong>аллергопробы «на дому»</strong> — что реально важно знать перед вводом продукта.<div class="d-cta">Дисклеймер</div></div></div>
+      <div class="day-plan"><span class="d-date">12.05 вт</span><span class="d-fmt">Reels</span><div class="d-body">Повтор формата-победителя: <strong>ещё 3 «никогда»</strong> из педиатрической практики (маркетинг БАДов, антибиотики «на всякий», соседские советы).<div class="d-cta">Подписка + гайд</div></div></div>
+      <div class="day-plan"><span class="d-date">13.05 ср</span><span class="d-fmt">Stories</span><div class="d-body">Серия «спросите педиатра»: 5 быстрых ответов + сбор вопросов на следующую неделю.<div class="d-cta">Стикер вопроса</div></div></div>
+      <div class="day-plan"><span class="d-date">14.05 чт</span><span class="d-fmt">Карусель</span><div class="d-body"><strong>Аптечка 0–12 мес.</strong> — минимум + что не нужно покупать «на всякий».<div class="d-cta">Сохранить</div></div></div>
+      <div class="day-plan"><span class="d-date">15.05 пт</span><span class="d-fmt">Reels</span><div class="d-body">Второй <strong>короткий CTA-Reels</strong> на подписку (другой визуал/локация, тот же смысл: тревога → доказательность).<div class="d-cta">#гв #прикорм #педиатрминск</div></div></div>
+    </div>
+
+    <div class="week-plan-card">
+      <div class="week-plan-head">Финиш спринта · 16.05 (сб) — 18.05 (пн)</div>
+      <div class="day-plan"><span class="d-date">16.05 сб</span><span class="d-fmt">Reels</span><div class="d-body">Итог месяца: <strong>«3 темы, которые вы просили чаще всего»</strong> (по сторис/комментам) — закрепить рубрики на июнь.<div class="d-cta">Опрос «что дальше?»</div></div></div>
+      <div class="day-plan"><span class="d-date">17.05 вс</span><span class="d-fmt">Пост / Карусель</span><div class="d-body">Личное + <strong>благодарность подписчикам</strong> + напоминание про консультации и гайд.<div class="d-cta">mommy.by + «напишите слово ЗАПИСЬ»</div></div></div>
+      <div class="day-plan"><span class="d-date">18.05 пн</span><span class="d-fmt">Stories + Reels</span><div class="d-body">Утро: Stories с планом июня; вечером Reels — <strong>тизер следующей серии</strong> «педиатр-мама» или прикорм по сезону.<div class="d-cta">Замерьте в Insights за 18.04–18.05 и обновите плейбук</div></div></div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Напоминание:</strong> публичные лайки не равны «залёту» по охвату. Зафиксируйте в таблице для каждого поста из этого плана: охват, сохранения, репосты, переходы в профиль, клики по ссылке — и на следующий месяц скорректируйте даты под фактически лучшие рубрики.
     </div>
   </section>
 

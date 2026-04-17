@@ -15,3 +15,5 @@
 ## Ссылки
 
 - Сайт: [mommy.by](https://mommy.by)
+- Публичный плейбук: [mommy-ig-strategy.vercel.app](https://mommy-ig-strategy.vercel.app)
+- Календарь **18.04–18.05.2026** + разбор постов: в плейбуке раздел «18.04–18.05» или файл [CONTENT_PLAN_2026-04-18_2026-05-18.md](CONTENT_PLAN_2026-04-18_2026-05-18.md)
